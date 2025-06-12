@@ -53,7 +53,20 @@ function Main() {
           </div>
         </div>
 
-        
+        <div className="main-footer">
+          <div className="search-box">
+            <input type="text" placeholder="Enter Prompt" />
+            <div className="search-icons">
+              <LuGalleryHorizontalEnd size={"20px"}/>
+              <FaMicrophone size={"20px"}/>
+              <BiSolidSend size={"20px"}/>
+            </div>
+          </div>
+          <p className="footer-infor">
+
+              Gemeni Can Display inaccurate Information, so double check the information
+          </p>
+        </div>
       </div>
     </div>
   );
