@@ -58,3 +58,58 @@
     bottom: 15px;
     right: 15px;
 }
+
+.main .prompt-card p{
+    color: #585858;
+    font-size: 18px;
+}
+
+.main .prompt-card:hover{
+    background-color: #d0d0f0;
+}
+
+.main-footer{
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0px 20px;
+    margin: auto;
+    max-width: 900px;
+    
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #d0d0f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.search-box .search-icons{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-box input{
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.footer-infor{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 15px auto;
+    text-align: center;
+
+}
