@@ -1,10 +1,9 @@
 .side-bar{
     min-height: 100vh;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #f9f7f0;
-    align-items: center;
     padding: 20px 10px;
 }
 
@@ -27,10 +26,12 @@
 .recent-chats {
     display: flex;
     flex-direction: column;
+
 }
 
 .recent-title{
 
+    margin-left: 5%;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -55,10 +56,14 @@
 }
 
 .menu-footer {
+    
     display: flex;
     flex-direction: column;
+    align-items: start;
+    
 }
 .menu-footer-item {
+   
     padding-right: 10px;
     cursor: pointer;
 }
