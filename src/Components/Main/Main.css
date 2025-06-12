@@ -36,3 +36,25 @@
     
     
 }
+
+.prompt-card{
+    
+    padding: 20px;
+    cursor: pointer;
+    background-color: #f0f4f9;
+    border-radius: 13%;
+    height: 200px;
+    position: relative;
+}
+
+.prompt-card .image{
+
+    width: 35px;
+    padding: 5px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    bottom: 15px;
+    right: 15px;
+}
